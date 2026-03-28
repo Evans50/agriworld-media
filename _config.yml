@@ -1,0 +1,34 @@
+# Jekyll configuration for GitHub Pages
+
+# Title of the site
+title: "Your Site Title"
+
+# Description
+description: "A brief description of your site."
+
+# URL of the site
+url: "https://yourusername.github.io/"
+
+# Base URL
+baseurl: ""
+
+# Author
+author: "Your Name"
+
+# Theme
+theme: "minimal"  # You can choose any Jekyll theme according to your preference
+
+# Plugins (if any)
+plugins:
+  - jekyll-feed
+
+# Exclude specific files and directories from being processed by Jekyll
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+
+# Build settings
+permalink: pretty
